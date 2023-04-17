@@ -1,0 +1,30 @@
+Body{
+    background: Orange;
+}
+
+.my{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.me{
+    font-size: 140px;
+    justify-content: center;
+    animation: heart 0.5s infinite;
+}
+
+.you{
+    color: red;
+    justify-content: center;
+    text-align: center;
+    font-family: times;
+    font-size: 50px;
+    text-shadow: blue;
+}
+
+@keyframes heart {
+    0%{font-size: 70px;}
+    50%{font-size: 140px;}
+    100%{font-size: 70px;}
+}
