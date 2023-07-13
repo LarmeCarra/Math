@@ -26,7 +26,6 @@ jobs:
         pip install kivy==2.2.0
         pip install kivymd==1.1.1
         pip install cython==0.29.24
-        pip install aidl
 
 
     - name: Build APK
