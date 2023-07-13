@@ -27,9 +27,6 @@ source.exclude_dirs = tests, bin
 # (list) List of exclusions using pattern matching
 source.exclude_patterns = license,images/*/*.jpg
 
-# (str) Application versioning (method 1)
-version = 0.1
-
 # (str) Application versioning (method 2)
 version.regex = __version__ = ['"](.*)['"]
 version.filename = %(source.dir)s/main.py
