@@ -2,7 +2,6 @@
 import kivymd
 from kivymd.app import MDApp
 from kivymd.uix.boxlayout import MDBoxLayout
-from plyer import tts, vibrator
 from PIL import Image
 
 class app(MDApp):
