@@ -1,0 +1,17 @@
+MDBoxLayout:
+	md_bg_color: 0, 0, 0, 1
+	orientation: "vertical"
+	MDLabel:
+		text: "[color=#FF0000][font: handy]Lustio[/color][/font]"
+		halign: "center"
+		font_style: "H1"
+		markup: True
+
+	Image:
+		source: 'iii.png'
+
+	MDFlatButton:
+		md_bg_color: 1, 0, 0, 1
+		text: "test"
+		on_press: app.say()
+		on_release: app.vib()
