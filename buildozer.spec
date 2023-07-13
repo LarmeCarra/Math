@@ -32,7 +32,7 @@ version.regex = __version__ = ['"](.*)['"]
 version.filename = %(source.dir)s/main.py
 
 # (list) Application requirements
-requirements = kivy==2.2.0,kivymd==1.1.1,python3
+requirements = kivy==2.2.0,kivymd==1.1.1,python3,cython3
 
 # (str) Custom source folders for requirements
 requirements.source.kivy = ../../kivy
